@@ -1,0 +1,4 @@
+Repository
+  Module : go mod init
+    Package
+      Main

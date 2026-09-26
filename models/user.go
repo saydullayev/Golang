@@ -5,3 +5,13 @@ type User struct {
 	PhoneNumber string
 
 }
+
+type UserGetListResponse struct {
+	Count int
+	Users []*User
+}
+
+type UserGEtListRequest struct {
+	Offset int
+	Limit int
+}
